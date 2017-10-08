@@ -1,0 +1,21 @@
+body{
+  background-color: gray;
+}
+.estilo1{
+  font-size: 24px;
+  color: cyan;
+  text-decoration: underline;
+  text-shadow: 1px;
+}
+.datos{
+  text-align: center;
+  font-size: 15px;
+  color: red;
+  background-color: blue;
+}
+.rojo{
+  color: red;
+}
+.azul{
+  color: blue;
+}
