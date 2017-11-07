@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+</html>
+<head>
+<script>
+
+function piedra() {
+    document.getElementById('foto').src = "css/img/piedra.png";
+}
+
+function papel() {
+    document.getElementById('foto').src = "css/img/papel.jpg";
+}
+function tijera() {
+    document.getElementById('foto').src = "css/img/tijera.png";
+}
+</script>
+</head>
+<body>
+<img src="css/img/default.png" id="foto">
+<br>
+<button onclick="piedra()">PIEDRA</button>
+<button onclick="papel()">PAPEL</button>
+<button onclick="tijera()">TIJERA</button>
+</body>
